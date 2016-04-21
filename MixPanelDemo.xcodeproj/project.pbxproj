@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480C55001CC88E8700545695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480C54FF1CC88E8700545695 /* AppDelegate.swift */; };
+		480C55021CC88E8700545695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480C55011CC88E8700545695 /* ViewController.swift */; };
+		480C55051CC88E8700545695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480C55031CC88E8700545695 /* Main.storyboard */; };
+		480C55081CC88E8700545695 /* MixPanelDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 480C55061CC88E8700545695 /* MixPanelDemo.xcdatamodeld */; };
+		480C550A1CC88E8700545695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480C55091CC88E8700545695 /* Assets.xcassets */; };
+		480C550D1CC88E8700545695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480C550B1CC88E8700545695 /* LaunchScreen.storyboard */; };
+		480C55181CC88E8700545695 /* MixPanelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480C55171CC88E8700545695 /* MixPanelDemoTests.swift */; };
+		480C55231CC88E8700545695 /* MixPanelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480C55221CC88E8700545695 /* MixPanelDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480C55141CC88E8700545695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480C54F41CC88E8700545695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480C54FB1CC88E8700545695;
+			remoteInfo = MixPanelDemo;
+		};
+		480C551F1CC88E8700545695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480C54F41CC88E8700545695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480C54FB1CC88E8700545695;
+			remoteInfo = MixPanelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480C54FC1CC88E8700545695 /* MixPanelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixPanelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480C54FF1CC88E8700545695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		480C55011CC88E8700545695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		480C55041CC88E8700545695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480C55071CC88E8700545695 /* MixPanelDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MixPanelDemo.xcdatamodel; sourceTree = "<group>"; };
+		480C55091CC88E8700545695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480C550C1CC88E8700545695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480C550E1CC88E8700545695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480C55131CC88E8700545695 /* MixPanelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixPanelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480C55171CC88E8700545695 /* MixPanelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixPanelDemoTests.swift; sourceTree = "<group>"; };
+		480C55191CC88E8700545695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480C551E1CC88E8700545695 /* MixPanelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixPanelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480C55221CC88E8700545695 /* MixPanelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixPanelDemoUITests.swift; sourceTree = "<group>"; };
+		480C55241CC88E8700545695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480C54F91CC88E8700545695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C55101CC88E8700545695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C551B1CC88E8700545695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480C54F31CC88E8700545695 = {
+			isa = PBXGroup;
+			children = (
+				480C54FE1CC88E8700545695 /* MixPanelDemo */,
+				480C55161CC88E8700545695 /* MixPanelDemoTests */,
+				480C55211CC88E8700545695 /* MixPanelDemoUITests */,
+				480C54FD1CC88E8700545695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		480C54FD1CC88E8700545695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480C54FC1CC88E8700545695 /* MixPanelDemo.app */,
+				480C55131CC88E8700545695 /* MixPanelDemoTests.xctest */,
+				480C551E1CC88E8700545695 /* MixPanelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480C54FE1CC88E8700545695 /* MixPanelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				480C54FF1CC88E8700545695 /* AppDelegate.swift */,
+				480C55011CC88E8700545695 /* ViewController.swift */,
+				480C55031CC88E8700545695 /* Main.storyboard */,
+				480C55091CC88E8700545695 /* Assets.xcassets */,
+				480C550B1CC88E8700545695 /* LaunchScreen.storyboard */,
+				480C550E1CC88E8700545695 /* Info.plist */,
+				480C55061CC88E8700545695 /* MixPanelDemo.xcdatamodeld */,
+			);
+			path = MixPanelDemo;
+			sourceTree = "<group>";
+		};
+		480C55161CC88E8700545695 /* MixPanelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				480C55171CC88E8700545695 /* MixPanelDemoTests.swift */,
+				480C55191CC88E8700545695 /* Info.plist */,
+			);
+			path = MixPanelDemoTests;
+			sourceTree = "<group>";
+		};
+		480C55211CC88E8700545695 /* MixPanelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				480C55221CC88E8700545695 /* MixPanelDemoUITests.swift */,
+				480C55241CC88E8700545695 /* Info.plist */,
+			);
+			path = MixPanelDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480C54FB1CC88E8700545695 /* MixPanelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480C55271CC88E8700545695 /* Build configuration list for PBXNativeTarget "MixPanelDemo" */;
+			buildPhases = (
+				480C54F81CC88E8700545695 /* Sources */,
+				480C54F91CC88E8700545695 /* Frameworks */,
+				480C54FA1CC88E8700545695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixPanelDemo;
+			productName = MixPanelDemo;
+			productReference = 480C54FC1CC88E8700545695 /* MixPanelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		480C55121CC88E8700545695 /* MixPanelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480C552A1CC88E8700545695 /* Build configuration list for PBXNativeTarget "MixPanelDemoTests" */;
+			buildPhases = (
+				480C550F1CC88E8700545695 /* Sources */,
+				480C55101CC88E8700545695 /* Frameworks */,
+				480C55111CC88E8700545695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480C55151CC88E8700545695 /* PBXTargetDependency */,
+			);
+			name = MixPanelDemoTests;
+			productName = MixPanelDemoTests;
+			productReference = 480C55131CC88E8700545695 /* MixPanelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		480C551D1CC88E8700545695 /* MixPanelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480C552D1CC88E8700545695 /* Build configuration list for PBXNativeTarget "MixPanelDemoUITests" */;
+			buildPhases = (
+				480C551A1CC88E8700545695 /* Sources */,
+				480C551B1CC88E8700545695 /* Frameworks */,
+				480C551C1CC88E8700545695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480C55201CC88E8700545695 /* PBXTargetDependency */,
+			);
+			name = MixPanelDemoUITests;
+			productName = MixPanelDemoUITests;
+			productReference = 480C551E1CC88E8700545695 /* MixPanelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480C54F41CC88E8700545695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Veena Nair";
+				TargetAttributes = {
+					480C54FB1CC88E8700545695 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					480C55121CC88E8700545695 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 480C54FB1CC88E8700545695;
+					};
+					480C551D1CC88E8700545695 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 480C54FB1CC88E8700545695;
+					};
+				};
+			};
+			buildConfigurationList = 480C54F71CC88E8700545695 /* Build configuration list for PBXProject "MixPanelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480C54F31CC88E8700545695;
+			productRefGroup = 480C54FD1CC88E8700545695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480C54FB1CC88E8700545695 /* MixPanelDemo */,
+				480C55121CC88E8700545695 /* MixPanelDemoTests */,
+				480C551D1CC88E8700545695 /* MixPanelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480C54FA1CC88E8700545695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480C550D1CC88E8700545695 /* LaunchScreen.storyboard in Resources */,
+				480C550A1CC88E8700545695 /* Assets.xcassets in Resources */,
+				480C55051CC88E8700545695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C55111CC88E8700545695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C551C1CC88E8700545695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480C54F81CC88E8700545695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480C55081CC88E8700545695 /* MixPanelDemo.xcdatamodeld in Sources */,
+				480C55021CC88E8700545695 /* ViewController.swift in Sources */,
+				480C55001CC88E8700545695 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C550F1CC88E8700545695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480C55181CC88E8700545695 /* MixPanelDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C551A1CC88E8700545695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480C55231CC88E8700545695 /* MixPanelDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480C55151CC88E8700545695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480C54FB1CC88E8700545695 /* MixPanelDemo */;
+			targetProxy = 480C55141CC88E8700545695 /* PBXContainerItemProxy */;
+		};
+		480C55201CC88E8700545695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480C54FB1CC88E8700545695 /* MixPanelDemo */;
+			targetProxy = 480C551F1CC88E8700545695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480C55031CC88E8700545695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480C55041CC88E8700545695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480C550B1CC88E8700545695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480C550C1CC88E8700545695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480C55251CC88E8700545695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		480C55261CC88E8700545695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480C55281CC88E8700545695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixPanelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experion.MixPanelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		480C55291CC88E8700545695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixPanelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experion.MixPanelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		480C552B1CC88E8700545695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MixPanelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experion.MixPanelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixPanelDemo.app/MixPanelDemo";
+			};
+			name = Debug;
+		};
+		480C552C1CC88E8700545695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MixPanelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experion.MixPanelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixPanelDemo.app/MixPanelDemo";
+			};
+			name = Release;
+		};
+		480C552E1CC88E8700545695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MixPanelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experion.MixPanelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MixPanelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		480C552F1CC88E8700545695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MixPanelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experion.MixPanelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MixPanelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480C54F71CC88E8700545695 /* Build configuration list for PBXProject "MixPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C55251CC88E8700545695 /* Debug */,
+				480C55261CC88E8700545695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480C55271CC88E8700545695 /* Build configuration list for PBXNativeTarget "MixPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C55281CC88E8700545695 /* Debug */,
+				480C55291CC88E8700545695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480C552A1CC88E8700545695 /* Build configuration list for PBXNativeTarget "MixPanelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C552B1CC88E8700545695 /* Debug */,
+				480C552C1CC88E8700545695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480C552D1CC88E8700545695 /* Build configuration list for PBXNativeTarget "MixPanelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C552E1CC88E8700545695 /* Debug */,
+				480C552F1CC88E8700545695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		480C55061CC88E8700545695 /* MixPanelDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				480C55071CC88E8700545695 /* MixPanelDemo.xcdatamodel */,
+			);
+			currentVersion = 480C55071CC88E8700545695 /* MixPanelDemo.xcdatamodel */;
+			path = MixPanelDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 480C54F41CC88E8700545695 /* Project object */;
+}
