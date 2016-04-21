@@ -16,6 +16,21 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func profileAction(sender: AnyObject) {
+    }
+    
+    @IBAction func settingAction(sender: AnyObject) {
+      
+      
+      
+        self.performSegueWithIdentifier("setting", sender:self)
+    }
+//    @IBAction func settingAction(sender: AnyObject) {
+//        
+//        self.performSegueWithIdentifier("SettingViewController", sender: self)
+//
+//    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

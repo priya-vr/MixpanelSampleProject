@@ -10,17 +10,40 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    
+    @IBOutlet var userNameTextField: UITextField!
+    
+    @IBOutlet var passwordTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func signIn(sender: AnyObject) {
+        self.performSegueWithIdentifier("HomeViewController", sender: self)
+      
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func textFieldDidBeginEditing(textField: UITextField) {    //delegate method
+        
+    }
     
+    func textFieldShouldEndEditing(textField: UITextField) -> Bool {  //delegate method
+        return true
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {   //delegate method
+        textField.resignFirstResponder()
+        
+        return true
+    }
+
 
     /*
     // MARK: - Navigation

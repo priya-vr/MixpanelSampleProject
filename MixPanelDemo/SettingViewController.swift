@@ -10,12 +10,24 @@ import UIKit
 
 class SettingViewController: UIViewController {
 
+    @IBOutlet var emailTxtField: UITextField!
+    @IBOutlet var usernameTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    @IBOutlet var contactNumberTextField: UITextField!
+    @IBOutlet var confirmTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func saveAction(sender: AnyObject) {
+        
+        var prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+       
+        prefs.synchronize()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
